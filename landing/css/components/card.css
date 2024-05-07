@@ -1,0 +1,33 @@
+.container-card {
+  width: 900px;
+  margin: auto;
+}
+div {
+  display: block;
+}
+.text-center {
+  text-decoration: underline;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.card > img {
+  height: 300px;
+  width: 240px;
+  object-fit: cover;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230, 230, 230);
+}
+.text-center {
+  text-align: center
+}
